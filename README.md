@@ -39,5 +39,5 @@ Explore GitHub Enterprise for advanced team management.
 Integrate GitHub Actions for workflow automation.
 Use GitHub Projects for enhanced task management.
 
-10. Conclusion
+Conclusion
 Creating SoftBase Labs on GitHub demonstrated how organizations improve collaborative software development. It provided hands-on experience with repository management, user roles, and team collaboration.
