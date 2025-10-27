@@ -73,3 +73,14 @@ footer {
   padding: 10px;
 }
 
+ /* Footer links */
+  footer a {
+    color: #004080;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
