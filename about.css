@@ -1,0 +1,92 @@
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c0bfbf;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to top, #c0bfbf, #007590);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Section Styling */
+section {
+  background-color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  color: #ff6f00;
+}
+
+/* Paragraphs */
+p {
+  margin: 5px 0;
+}
+
+/* Links */
+a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #24292e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #444c56;
+}
+
+/* Footer */
+footer {
+  background-color: #007acc;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+  width: 100%;
+  margin-top: auto;
+}
+
+footer a {
+  color: #cce6ff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
