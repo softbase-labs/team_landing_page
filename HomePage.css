@@ -1,0 +1,145 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient( to top, #717377, #007590);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  margin-top: 30px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #666;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  .hero .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .hero .btn:hover {
+    background-color: #003366;
+  }
+  /* Hero section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e6f0ff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    color: #004080;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero .btn:hover {
+    background-color: #003366;
+  }
+  
+  /* Team section */
+  section ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  section ul li {
+    margin-bottom: 8px;
+  }
+  
+  /* Project goals */
+  section h2 {
+    margin-top: 30px;
+    color: #004080;
+  }
+  
+  /* Footer links */
+  footer a {
+    color: #004080;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
