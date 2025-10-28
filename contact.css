@@ -7,12 +7,22 @@ body {
 }
 
 header {
+ Robert-Muntanga-2420908
+  background: linear-gradient(to top, #ffffff, #57939d);
+
   background-color: #005f99;
+ main
   color: white;
   padding: 2rem;
   text-align: center;
 }
 
+ Robert-Muntanga-2420908
+h2 {
+  color: #ff5e00;
+}
+
+ main
 /* Navigation styles */
 header nav {
   margin-top: 1rem;
@@ -28,9 +38,12 @@ header nav ul {
   align-items: center;
 }
 
+ Robert-Muntanga-2420908
+
 header nav li {
 }
 
+ main
 header nav a {
   color: white;
   text-decoration: none;
@@ -86,7 +99,11 @@ header nav a.active {
 .member a {
   display: inline-block;
   margin-top: 0.5rem;
+ Robert-Muntanga-2420908
+  color: #ffffff;
+
   color: #005f99;
+ main
   text-decoration: none;
 }
 
@@ -125,6 +142,23 @@ button {
   cursor: pointer;
 }
 
+ Robert-Muntanga-2420908
+a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #24292e;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #444c56;
+}
+
+ main
 button:hover {
   background: #004b7a;
 }

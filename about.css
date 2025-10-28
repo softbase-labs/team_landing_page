@@ -1,3 +1,4 @@
+Robert-Muntanga-2420908
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -5,6 +6,7 @@ body {
   background: #f4f7fa;
   color: #333;
 }
+ main
 .about, .values {
   max-width: 800px;
   margin: 2rem auto;
@@ -15,7 +17,11 @@ body {
 }
 
 header {
+ Robert-Muntanga-2420908
+    background: linear-gradient(to top, #b0b6c1, #57939d);
+  
   background-color: #005f99;
+ main
   color: white;
   padding: 2rem;
   text-align: center;
@@ -73,7 +79,11 @@ header em {
 }
 
 .about h2, .values h2 {
+Robert-Muntanga-2420908
+  color: #ff5e00;
+
   color: #005f99;
+ main
   margin-bottom: 1rem;
 }
 
